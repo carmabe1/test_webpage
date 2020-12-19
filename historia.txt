@@ -8,7 +8,7 @@ esta linea ha sido añadida
 
 - git log nombre_de_archivo                                                     -- muestra los id's de los commit.
 - git commit -m "mensaje_de_commit"
-- git diff                                                                      muestra las diferenecia entre el staging arrea vs el hdd.
+- git diff                                                                      muestra las diferenecia entre el staging area vs el hdd.
 - git diff version_vieja version_actual
 - git show                                                                      -- muestra la diferencia entre los dos ultimos commit.
 - git reset                                                                     -- nos permite devolvernos a una version anterior, hay de dos tipos
@@ -18,9 +18,13 @@ esta linea ha sido añadida
 
 - git checkout #id_del_commit nombre_de_archivo                                 -- me permite ir al pasado a ver cosas.
 - git checkout master nombre_de_archivo                                         -- me permite regresar al presente despues de haber visitado el pasado.
+- git rm --cached                                                               -- borra los archivos de staging
+         --force                                                                -- borra los archivos de staging y de hdd
 
-
-
+- git reset                                                                     -- me permite volver al pasado, peor no permite regresar al presente. PILAS!!!!
+- git reset --hard                                                              -- borra el staging area.
+- git reset --soft                                                              -- no borra el stagging area.
+- git reset HEAD                                                                -- este es el comando para sacar archivos del área de Staging.
 
 
 
