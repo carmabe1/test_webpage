@@ -14,7 +14,7 @@ esta linea ha sido añadida
 - git reset                                                                     -- nos permite devolvernos a una version anterior, hay de dos tipos
                                                                                 hard y soft
 - git reset #id_de_commit --soft o --hard                                       -- es una forma peligrosa de volver al pasado, tener cuidado.
-- git log --stat me muestra                                                     otra forma de ver mas cambios
+- git log --stat                                                                -- me muestra otra forma de ver mas cambios
 
 - git checkout #id_del_commit nombre_de_archivo                                 -- me permite ir al pasado a ver cosas.
 - git checkout master nombre_de_archivo                                         -- me permite regresar al presente despues de haber visitado el pasado.
