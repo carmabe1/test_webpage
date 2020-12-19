@@ -3,3 +3,25 @@ de modificaciones en texto plano en un archivo.
 no me acuerdo como se puede insertar la fecha en vim.
 esta linea ha sido añadida
 202012191629
+
+
+
+- git log nombre_de_archivo                                                     -- muestra los id's de los commit.
+- git commit -m "mensaje_de_commit"
+- git diff                                                                      muestra las diferenecia entre el staging arrea vs el hdd.
+- git diff version_vieja version_actual
+- git show                                                                      -- muestra la diferencia entre los dos ultimos commit.
+- git reset                                                                     -- nos permite devolvernos a una version anterior, hay de dos tipos
+                                                                                hard y soft
+- git reset #id_de_commit --soft o --hard                                       -- es una forma peligrosa de volver al pasado, tener cuidado.
+- git log --stat me muestra                                                     otra forma de ver mas cambios
+
+
+
+
+
+
+
+
+
+como limpiar lo que hat en staging? como arrepentirse del commit... o algo asi?
