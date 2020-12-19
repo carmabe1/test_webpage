@@ -5,7 +5,7 @@ esta linea ha sido añadida
 202012191629
 
 
-
+- git init                                                                      -- inicializa el repo local
 - git log nombre_de_archivo                                                     -- muestra los id's de los commit.
 - git commit -m "mensaje_de_commit"
 - git diff                                                                      muestra las diferenecia entre el staging area vs el hdd.
@@ -28,10 +28,16 @@ esta linea ha sido añadida
 
 
 orden:
+----> git init
+  |-> git clone url                                                              -- si en lugar de inicializar quiero cargarlos desde un remoto.
+
 - git status
 - git add .
 - git commit -m "mensaje"
 
+- git fetch                                                                     git pull
+- git merge                                                                     git pull
+- git push
 
 
 como limpiar lo que hat en staging? como arrepentirse del commit... o algo asi?
