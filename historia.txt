@@ -27,6 +27,10 @@ esta linea ha sido añadida
 - git reset HEAD                                                                -- este es el comando para sacar archivos del área de Staging.
 
 
+orden:
+- git status
+- git add .
+- git commit -m "mensaje"
 
 
 
