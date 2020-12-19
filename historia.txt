@@ -2,3 +2,4 @@ cuarta version del archivo en 202012191628
 de modificaciones en texto plano en un archivo.
 no me acuerdo como se puede insertar la fecha en vim.
 esta linea ha sido añadida
+202012191629
