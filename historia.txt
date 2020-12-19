@@ -1,6 +1,4 @@
-primera version del archivo
-de modificaciones en texto plano
-en un archivo.
-
+segunda version del archivo
+de modificaciones en texto plano en un archivo.
 no me acuerdo como se puede insertar la fecha en vim.
 
