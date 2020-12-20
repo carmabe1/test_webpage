@@ -18,6 +18,7 @@ esta linea ha sido añadida
 
 - git checkout #id_del_commit nombre_de_archivo                                 -- me permite ir al pasado a ver cosas.
 - git checkout master nombre_de_archivo                                         -- me permite regresar al presente despues de haber visitado el pasado.
+- git checkout nombre_otra_rama                                                 -- me permite cambiar de rama
 - git rm --cached                                                               -- borra los archivos de staging
          --force                                                                -- borra los archivos de staging y de hdd
 
@@ -38,6 +39,12 @@ orden:
 - git fetch                                                                     git pull
 - git merge                                                                     git pull
 - git push
+
+
+- git branch nuevo_nombre_rama                                                  -- asi es como se crean ramas desde donde estoy parado
+- git merge                                                                     -- debo estar parado en la rama de destino.
+- git branch                                                                    -- me muestra que ramas hay en cual estoy parado.
+
 
 
 como limpiar lo que hat en staging? como arrepentirse del commit... o algo asi?
