@@ -3,4 +3,11 @@ body
   color: green;
   text-align: center;
   font-family:monospace;
+  font-size: 20px;
+}
+#container
+{
+  width: auto;
+  border: 3px solid #F0A;
+  margin: 0 auto;
 }
